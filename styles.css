@@ -1,0 +1,110 @@
+body {background-color: black;
+width: auto;}
+
+#sect1 {background-image: url(https://www.poeticous.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNkxyQ3c9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--5198b2800293567fc3c51af6dc9bfcd9b0d7e754/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDam9MWm05eWJXRjBPZ2wzWldKd09ndHlaWE5wZW1WSkloRXhORFF3TGpCNE9UVTJMamNHT2daRlZEb0pZM0p2Y0VraUtURTBOREF1TUhnMU5EQXVNQ3N0TUM0d0t6TTFNUzR3TVRRME9UZzVNREV6TmpjeU13WTdDRlE2QzNOaGJYQnNaV1lMTVM0ME5HVXpPZ3h4ZFdGc2FYUjVhVlU9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--5e8e1a1b50aa2b129ee501b511f7fc332f851928/poeticous-bg-2247.jpg);
+height: 200px;
+width: 100%;
+padding-top: 100px;
+padding-right: 5px;
+background-size: cover;
+background-repeat: no-repeat;
+
+
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between right;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+nav {
+  width: 50%;
+  max-width: 300px;
+  height: 50px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+}
+
+nav > ul > li {
+  color: #dfdfe2;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
+
+nav > ul > li:hover {
+  background-color: #dfdfe2;
+  color: #1b1b32;
+  cursor: pointer;
+}
+
+li > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.projects-grid {display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 15px;
+}
+
+img {width: 400px;
+height: 500px;
+border-radius: 15px;
+object-fit: cover;}
+
+.welcome-section {text-align: center;
+margin-top: 50px;}
+
+#prof-pic { border-radius: 50px;
+height: 200px;
+width: 200px;
+margin-left: auto;
+margin-right: auto;
+object-fit: cover;}
+
+h1 {color: white;
+text-align: center;
+font-size: 30px;
+margin: 75px}
+
+h2 {color: white;
+text-align: center;
+font-size: 30px;
+margin-top: 200px;
+margin-bottom: 100px;}
+
+p {color: white;
+text-align: center;
+font-size: 30px;
+margin-top: 10px;}
+
+#poem {margin-bottom: 100px;}
+
+a {text-decoration: none;}
+
+@media (max-width: 768px) {
+  
+  .projects-grid {
+    background-color:black;
+    width: 100%;
+    height: 100%;
+    margin: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px
+  }}
